@@ -1,0 +1,52 @@
+/* a[target="_blank"]{
+    background-color: greenyellow;
+}
+
+ol[type="A"]{
+    color: yellow;
+    background-color:firebrick;
+} */
+
+a:active{
+    color: chartreuse;
+}
+h1:active{
+    background-color: aqua;
+}
+input:active{
+    background-color: blueviolet;
+}
+h2:focus{
+    color: aquamarine;
+}
+
+h1:hover{
+    color: red;
+}
+
+button:hover{
+    background-color: greenyellow;
+   transform: scale(1.2);
+
+}
+.box{
+    height: 20px;
+    width: 20px;
+}
+
+.box:hover{
+    background-image: url(./photos/scorpio.jpg);
+    background-size: cover;
+    background-position: center;
+}
+img{
+    margin-left: 200px;
+    height: 150px;
+    width: 150px;
+}
+img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 9px rgb(47, 130, 255);
+}

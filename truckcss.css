@@ -1,0 +1,136 @@
+.container{
+    height: 350px;
+    width: 700px;
+    background-color: rgb(249, 160, 104);
+    position: relative;
+    top: 150px;
+    left: 330px;
+    border-radius: 10px 10px 10px 10px;
+}
+.driver{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    position: absolute;
+    top: 260px;
+    left: 78px;
+    border-radius: 40% 10px 10px 10px;
+}
+/* .trangle{
+    height: 100px;
+    width: 170px;
+    background-color: rgb(249, 200, 22);
+    position: absolute;
+    top: 160px;
+    left: 165px;
+    border-radius: 50% 10px 10px 10px;
+} */
+ .trangle {
+    height: 100px;
+    width: 170px;
+    background-color: rgb(249, 200, 22);
+    position: absolute;
+    top: 152px;
+    left: 159px;
+    border-radius: 50% 10px 10px 10px;
+}
+.glass{
+    height: 90px;
+    width: 130px;
+    background-color: #88a1f3;
+    position: absolute;
+    left: 140px;
+    top: 320px;
+    border: 2px solid black;
+    border-radius: 40% 10px 10px 10px;
+    
+}
+.line{
+    height: 20px;
+    width: 730px;
+    background-color: black;
+    position: absolute;
+    top: 508px;
+    left: 305px;
+}
+.line2{
+    height: 10px;
+    width: 700px;
+    background-color:olive;
+    position: absolute;
+    top: 240px;
+    left: 340px;
+    border-radius: 50%  50%;
+
+}
+.line3{
+    height: 10px;
+    width: 700px;
+    background-color:olive;
+    position: absolute;
+    top: 340px;
+    left: 340px;
+    border-radius: 50%  50%;
+
+}
+.line4{
+    height: 10px;
+    width: 700px;
+    background-color:olive;
+    position: absolute;
+    top: 440px;
+    left: 340px;
+    border-radius: 50%  50%;
+
+}
+.tyre1{
+    height: 150px;
+    width: 150px;
+    background-color: #2b273b;
+    border-radius: 50%;
+    position: absolute;
+    top: 455px;
+    left: 150px;
+}
+.wheel1{
+    height: 70px;
+    width: 70px;
+    background-color: grey;
+    border-radius: 100%;
+    position: absolute;
+    top: 38px;
+    border: 3px solid black;
+    left: 40px;
+    
+}
+.tyre2{
+    height: 150px;
+    width: 150px;
+    background-color: #2b273b;
+    border-radius: 50%;
+    position: absolute;
+    top: 455px;
+    left: 730px;
+}
+.wheel2{
+    height: 70px;
+    width: 70px;
+    background-color:grey;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    border: 3px solid black;
+    left: 40px;
+}
+
+@media screen and (max-width:500px) {
+    .container{
+    height: 150px;
+    width: 300px;
+    background-color: rgb(249, 160, 104);
+    position: relative;
+    top: 150px;
+    left: 330px;
+    border-radius: 10px 10px 10px 10px;
+}
+}

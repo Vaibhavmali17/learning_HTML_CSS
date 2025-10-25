@@ -1,0 +1,16 @@
+h1{
+    text-align: justify;
+    /* text-align: center; */
+    text-decoration: underline;
+    /* text-decoration:overline ; */
+    text-transform: uppercase;
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    text-shadow: 2px 2px 6px yellow;
+    text-indent: 100px;
+    text-decoration-color: aqua;
+    text-decoration-thickness: 10px ;
+    line-height: 70px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+}

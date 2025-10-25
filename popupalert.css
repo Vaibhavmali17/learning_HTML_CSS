@@ -1,0 +1,47 @@
+    body {
+      margin: 0;
+    }
+
+    .popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0.8);
+      width: 400px;
+      height: 150px;
+      background-color: #18f7dd;
+      padding: 20px;
+      border-radius: 2px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      opacity: 0;
+      animation: popupFade 1s ease 0.3s forwards;
+    }
+
+    .popup h2 {
+      color: #111111;
+      font-size: 35px;
+      margin-bottom: 20px;
+    }
+    button{
+      height: 50px;
+      width: 70px;
+      margin-left: 250px;
+      background-color: rgb(224, 39, 104);
+    }
+
+    @keyframes popupFade {
+      to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }

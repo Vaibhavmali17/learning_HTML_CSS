@@ -1,0 +1,18 @@
+.parent p:first-child{
+    background-color: aqua;
+}
+.parent p:nth-child(4){
+    background-color: red;
+}
+.parent p:nth-child(2n){
+    color: yellow;
+}
+.parent b:first-of-type{
+    background-color: plum;
+}
+.parent b:last-of-type{
+    background-color: palegreen;
+}
+.parent b:nth-of-type(2){
+    background-color: brown;
+}

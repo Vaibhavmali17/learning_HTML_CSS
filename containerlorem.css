@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+    display: grid;
+    gap: 10px;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+}
+.child{
+    border: 3px solid white;
+    color: white;
+    padding: 20px;
+}

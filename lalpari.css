@@ -1,0 +1,222 @@
+.mainbody{
+    height: 370px;
+    width: 1000px;
+    background-color: rgb(234, 66, 66);
+    margin: 100px;
+    border-radius: 40px 40px 10px 10px;
+    position: relative;
+    border: 1px solid black;
+}
+.upper{
+    height: 20px;
+    width: 700px;
+    background-color:silver;
+    position: absolute;
+    left:160px;
+    top:-20px;
+    border: 2px solid black;
+}
+.mainbody .win1{
+    height: 30px;
+    width: 100px;
+    border: 7px ridge rgb(44, 34, 34);
+    background-color: #f5ed91;
+    position: absolute;
+    top: 15px;
+    left: 270px;
+    border-radius: 20px 20px 20px 20px;
+}
+.mainbody .win2{
+    height: 30px;
+    width: 90px;
+    border: 7px ridge rgb(44, 34, 34);
+    background-color: #f5ed91;
+    position: absolute;
+    top: 15px;
+    left: 410px;
+    border-radius: 20px 20px 20px 20px;
+}
+.mainbody .win3{
+    height: 30px;
+    width: 90px;
+    border: 7px ridge rgb(44, 34, 34);
+    background-color: #f5ed91;
+    position: absolute;
+    top: 15px;
+    left: 550px;
+    border-radius: 20px 20px 20px 20px;
+}
+.mainbody .win4{
+    height: 30px;
+    width: 90px;
+    border: 7px ridge rgb(44, 34, 34);
+    background-color: #f5ed91;
+    position: absolute;
+    top: 15px;
+    left: 690px;
+    border-radius: 20px 20px 20px 20px;
+}
+.mainbody .win5{
+    height: 30px;
+    width: 90px;
+    border: 7px ridge rgb(44, 34, 34);
+    background-color: #f5ed91;
+    position: absolute;
+    top: 15px;
+    left: 830px;
+    border-radius: 20px 20px 20px 20px;
+}
+.door{
+    height: 260px;
+    width: 100px;
+    border: 3px ridge black;
+    position: absolute;
+    top:130px;
+    background-color: #f5ed91;
+    left: 270px;
+}
+.door .step{
+    background-color: silver;
+    height: 25px;
+    width: 98px;
+    position: absolute;
+    top: 218px;
+    border: 1px solid black;
+}
+.door .step2{
+    background-color: silver;
+    height: 23px;
+    width: 98px;
+    position: absolute;
+    top: 200px;
+    border: 1px solid black;
+}.door .step3{
+    background-color: silver;
+    height: 23px;
+    width: 98px;
+    position: absolute;
+    top: 180px;
+    border: 1px solid black;
+}
+.tyre1{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 320px;
+    left: 90px;
+}
+.wheel1{
+    height: 80px;
+    width: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    background: conic-gradient(gold,silver,silver,gold,silver,silver,gold,silver,silver);
+}
+.tyre2{
+    height:150px;
+    width: 150px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 320px;
+    left: 730px;
+}
+.wheel2{
+    height:80px;
+    width:80px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    background: conic-gradient(gold,silver,silver,gold,silver,silver,gold,silver,silver);
+}
+.mainbody .window{
+    height: 160px;
+    width: 160px;
+    border: 7px ridge black;
+    border-radius: 20px 20px 20px 20px;
+    background-color:#f5ed91;
+    position: relative;
+    left: 50px;
+    top: 60px;
+}
+ .mainbody .window1{
+    height: 80px;
+    width: 80px;
+    border: 7px ridge black;
+    background-color: #f5ed91;
+    position: relative;
+    left: 390px;
+    top: -40px;
+    
+}
+.mainbody .window2{
+    height: 80px;
+    width: 80px;
+    border: 7px ridge black;
+    background-color: #f5ed91;
+    position: absolute;
+    left: 500px;
+    top: 130px;
+}
+.mainbody .window3{
+    height: 80px;
+    width: 80px;
+    border: 7px ridge black;
+    background-color: #f5ed91;
+    position: absolute;
+    left: 610px;
+    top: 130px;
+}.mainbody .window4{
+    height: 80px;
+    width: 80px;
+    border: 7px ridge black;
+    background-color: #f5ed91;
+    position: absolute;
+    left: 730px;
+    top: 130px;
+}
+.mainbody .window5{
+    height: 80px;
+    width: 80px;
+    border: 7px ridge black;
+    background-color: #f5ed91;
+    position: absolute;
+    left: 850px;
+    top: 130px;
+}
+.glass1{
+    height: 70px;
+    width: 70px;
+    margin: 4px;
+    border: 2px solid black;
+    position: absolute;
+}
+ .glass2{ 
+    height: 70px;
+    width: 70px;
+    margin: 4px;
+    border: 2px solid black;
+    position: absolute;
+} 
+.glass3{
+    height: 70px;
+    width: 70px;
+    margin: 4px;
+    border: 2px solid black;
+    position: absolute;
+}
+.glass4{
+    height: 70px;
+    width: 70px;
+    margin: 4px;
+    border: 2px solid black;
+    position: absolute;
+}
+

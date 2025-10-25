@@ -1,0 +1,27 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://t3.ftcdn.net/jpg/02/92/57/14/360_F_292571491_R01YTzyvuceDL3UujKe7z38awUeUwtnD.jpg");
+    background-size: cover;
+}
+.main img{
+    position: relative;
+    top: 250px;
+    left: 400px;
+}
+.main .wheel1{
+    top: 170px;
+    left: -89px;
+    animation: rotate 0.1s ease infinite;
+}
+.main .wheel2{
+    position: absolute;
+    top: 433px;
+    left: 812px;
+    animation: rotate 0.1s ease  infinite;
+}
+@keyframes rotate {
+    100%{
+        transform: rotate(-360deg);
+    }
+}

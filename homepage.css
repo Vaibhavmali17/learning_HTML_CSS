@@ -1,0 +1,74 @@
+/* body{
+    height: 3000px;
+} 
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: yellowgreen;
+    position: relative;
+}
+.stick{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: sticky;
+    top: 0px;
+
+} */
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+ .parent{
+    height: 2000px;
+ }
+ .navbar{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+ }
+ .navbar li{
+   list-style: none;
+   padding-left: 20px;
+   font-size: 20px;
+   color: aliceblue;
+ }
+ .navbar img{
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 20px;
+ }
+ .navbar button{
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 300;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    background-color: rgb(217, 157, 28);
+    border-radius: 10px;
+ }
+ .home{
+    height: 100vh;
+    width: 100%;
+    background-color: violet;
+ }
+ .home img{
+    height: inherit;
+    width: inherit;
+    /* filter: blur(2px); */
+ }
+ .home h1{
+    position:absolute;
+    top: 10%;
+    left: 15%;
+    color: rgb(220, 235, 14);
+    text-shadow: 10px 5px 5px red;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+ }

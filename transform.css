@@ -1,0 +1,62 @@
+.scale{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    position:relative;
+    /* left: 100px;
+    top: 100px; */
+    animation-name: move;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform: rotate(360deg);
+}
+@keyframes move {
+    0%{
+        top: 0; left: 0;
+        transform: rotate(360deg);
+        transition: 1.2s;
+         /* background image background cover center
+        transform rotate 360deg */
+    }
+    25%{
+        top: 0; left: 1150px;
+    }
+    50%{
+        top: 500px; left: 1150px;
+    }
+    75%{
+        top: 500px; left: 0px;
+    }
+    100%{
+        top: 0; left: 0;
+    }
+}
+
+/*.scale:hover{
+    /* transform: scale(2);
+    transform: scaleX(3);
+    transform: scaleY(-4);*/
+
+    /* transform: skew(50deg);
+    transform: skewx(20deg);
+    transform: skewY(90deg); */
+
+         /* transition: 0.5s; */
+
+   /* transform: rotate(2109deg);
+     transform: rotateX(2109deg);
+    transform: rotateY(2100deg); */
+
+       /* transform: translate(1100px); */
+    /* transform: translatex(100px);
+      transform: translateY(200px); */
+    /* transition-duration: 3s; */
+    /* transition-delay: 2s; */
+    /* transition-timing-function: ease;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-in-out;
+    transition-timing-function: ease-out;
+} */

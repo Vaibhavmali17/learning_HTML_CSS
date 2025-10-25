@@ -1,0 +1,38 @@
+.heart{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 200px;
+    animation: pump 1s ease  infinite ;
+}
+.first,.second,.third{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.first{
+    border-radius: 50% 50% 0 0;
+    top: 70px;
+    position: relative;
+}
+.second{
+    position: relative;
+}
+.third{
+    position: absolute;
+    top:200px;
+    left: 130px;
+    border-radius: 0 50% 50% 0;
+}
+@keyframes pump{
+    0%{
+        transform: rotate(-43deg) scale(1);
+    }
+    50%{
+        transform: rotate(-43deg)scale(1.3);
+    }
+    100%{
+        transform: rotate(-43deg);
+    }
+    
+}

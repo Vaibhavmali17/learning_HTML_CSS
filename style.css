@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-family:cursive;
+}
+.header{
+    height: 110px; width: 100%;
+    background-color: rgb(130, 203, 203);
+}
+.header .navbar{
+    background-color: black;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+.header .navbar .links{
+    display: flex;
+    list-style: none;
+    margin-right:30px ;
+}
+.header .navbar .links a{
+    padding-left: 30px;
+    font-size: 20px;
+    color: aqua;
+}
+.header .navbar .links a:hover{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-underline-offset: 10px;
+}
+.banner{
+    height: 550px;
+    width: 100%;
+    background-color: aquamarine;
+    background-image: url(./images/bg.jpg);
+    background-position: right;
+    background-size: cover;
+    /* bottom: 400px; */
+}
+.banner .content{
+    color: white;
+    text-align: center;
+}
+.banner h1{
+    font-size: 70px;
+    text-shadow: 3px 7px 4px rgb(67, 100, 100);
+    padding-top: 30px;
+}
+.banner h3{
+    text-shadow: 3px 10px 4px rgb(44, 89, 110);
+    padding-left: 800px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.About{
+    height: 750px;
+    width: 100%;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.About .subabout{
+           /* self code */
+        background-image: url(./images/12.jpg);
+        background-size: cover;
+        background-position: 50px;
+        /* ------------ */
+    height: 450px;
+    width: 75%;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 0px 0px 40px 3px rgb(8, 171, 183);
+}
+
+           /* self code */
+.About .subabout:hover{
+     transform: scale(1.1) translateY(-10px);
+    transition: 1s;
+        /* ------------ */
+
+}
+.About .subabout .image{
+    height: 450px;
+}
+.About .subabout .content{
+    color: white;
+    text-shadow: 5px 5px 20px rgb(39, 219, 15);
+
+}
+.About .subabout .content h1{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    /* text-shadow: 5px 5px 20px rgb(39, 219, 15); */
+
+}
+.About .subabout .content p{
+    padding: 30px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    /* text-shadow: 5px 5px 20px rgb(39, 219, 15); */
+
+}
+.About .subabout .content h2{
+    padding-right: 30px;
+    text-align: end;
+    /* text-shadow: 5px 5px 20px rgb(39, 219, 15); */
+
+}
+.services{
+    height: 500px;
+    width: 100%;
+    background-image:url(./images/servicesbg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.services .card{
+    height: 400px;
+    width: 250px;
+    padding: 10px;
+    background-color: rgba(186, 212, 214, 0.774);
+    border-radius: 10px;
+}
+.services .card:hover{
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+.services .card p{
+    text-align: center;
+    padding-top: 20px;
+}
+.services .card button{
+    color: aliceblue;
+    padding: 5px;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 75px;
+    background-color:rgb(69, 67, 67);
+    border: 0px;
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: 0px 0px 2px 4px rgb(0, 0, 0);
+}
+/* 10 -07 - 2025*/
+
+.ex{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(31, 38, 39, 0.765);
+    text-shadow: 2px 2px 9px salmon;
+    color: aliceblue;
+}
+.collection{
+    height: 640px;
+    width: 100%;
+    background-color: rgba(13, 13, 13, 0.765);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxparent{
+    height: 500px;
+    width: 90%;
+    background-color: rgb(6, 6, 6);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+
+}
+.boxparent .box{
+    height: 200px;
+    width: 260px;
+    border: 4px solid black;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 3px aquamarine;
+}
+.box img:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+    filter: blur(3px);
+}
+.box h1{
+    position: absolute;
+    font-size: 30px;
+    color: rgb(234, 243, 243);
+    text-shadow: 2px 2px 4px rgb(82, 207, 24);
+}
+.contact{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(9, 10, 10);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.contact .form{
+    height: 300px;
+    width: 320px;
+    background-color: rgb(247, 238, 238);
+    border: 2px solid rgb(245, 159, 29);
+    padding: 30px;
+    border-radius: 10px;
+}
+.contact .form input{
+    height: 40px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding-left: 30px;
+    border-bottom: 2px solid blueviolet;
+}
+.contact .form input:last-of-type{
+    height: 60px;
+}
+.contact .form button{
+    margin-top: 20px;
+    height: 40px;
+    width: 300px;
+    margin-left: 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 17px;
+}
+.contact .media{
+    /* left: 150px; */
+    height: 300px;
+    width: 300px;
+    background-color: rgb(247, 238, 238);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+}
+.contact .media i{
+    font-size: 80px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+.contact .media{
+    box-shadow: 0 0 40px 4px rgb(73, 228, 255);
+    border-radius: 30px;
+}
+.contact .media i:hover{
+    text-shadow: 0 0 30px orange;
+
+}
+.contact .media:hover{
+    transform: scale(1.1) translateY(-30px);
+    transition: 1s;
+}

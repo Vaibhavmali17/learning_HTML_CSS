@@ -1,0 +1,29 @@
+/* .pic{
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    /* background-image: url(./photos/eye.jpg);  
+   
+    border properties 
+    solid
+    duble
+    dotted
+    grove
+    dashed
+    ridge
+
+ color properties
+backround color 1  color name
+                2   rgb
+                3   rgba
+                4   hexacode
+                5   hsl
+                6   hsla
+                    
+} */
+
+input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
